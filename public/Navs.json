@@ -1,0 +1,22 @@
+{
+    "navs":[
+        {
+            "name":"Algorithms",
+            "values":[{
+                    "name" : "Linear Search",
+                    "link" : "/linear-search"
+                },{
+                    "name" : "Binary Search",
+                    "link" : "/binary-search"
+                }
+            ]
+        },{
+            "name":"Data Structures",
+            "values":[{
+                    "name" : "Linked List",
+                    "link" : "/linked-list"
+                }
+            ]
+        }
+    ]
+}
