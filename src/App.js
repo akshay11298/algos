@@ -2,20 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navbar/NavBar';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
+    <div>
+    <NavBar/>
     <Router>
       <Route exact path="/" component={Home} ></Route>    
     </Router>
+    </div>
   );
 }
 
 function Home(){
   return(
-    <div className="App">
-      <NavBar/>
+    <div className="App"> 
       <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
